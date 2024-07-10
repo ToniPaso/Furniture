@@ -1,0 +1,2112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 50px;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 400;
+
+}
+
+#nazadstrelica {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+/* NAVBAR */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: rgba(231, 229, 227, 255);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s ease;
+    color: #222;
+    font-size: 17px;
+}
+
+#socialmedia,
+#socialmedia1 {
+    font-size: 27px;
+}
+
+.navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#socialmedia:hover {
+    color: blue;
+}
+
+#socialmedia1:hover {
+    color: rgb(129, 52, 175);
+}
+
+/* End NAVBAR */
+
+
+
+
+
+
+/* HERO */
+#hero {
+    width: 100%;
+    height: 87vh;
+    background: url("Picture12.avif");
+    background-size: cover;
+    background-position: center;
+    image-rendering: auto;
+}
+
+/* Button style HERO section */
+#classic1 {
+    display: inline-block;
+    padding: 15px 32px;
+    background: black;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-left: 250px;
+    cursor: pointer;
+    transition: all ease .27s;
+}
+
+#hero h1,
+h2 {
+    margin-left: 250px;
+    text-transform: uppercase;
+    font-size: 45px;
+
+}
+
+#hero h1 {
+    padding-top: 250px;
+    padding-bottom: 15px;
+}
+
+/* END OF HERO */
+
+
+
+
+
+
+/* Styling PROIZVODI */
+#trosedi img {
+    width: 500px;
+    position: relative;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 95px;
+}
+
+#garniture img {
+    width: 472px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* End */
+
+#garniture h3 {
+    margin-left: 920px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#trosedi h3 {
+    margin-left: 920px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+
+/* Button style PROIZVODI section */
+#classic {
+    display: inline-block;
+    padding: 15px 32px;
+    background: black;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-left: 920px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all ease .27s;
+}
+
+/* End of the PROIZVODI section */
+
+.imenazatrosede {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.imenazagarniture {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero1 */
+#hero1 {
+    background-color: rgba(222, 226, 231, 255);
+}
+
+#hero1 img {
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+#hero1 p {
+    font-size: 15px;
+}
+
+#hero1 .info {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+#hero1 .team {
+    margin-left: 180px;
+    padding-top: 50px;
+}
+
+#hero1 .team1 {
+    margin-left: 50px;
+}
+
+/* End of Hero1 */
+
+
+
+
+
+
+
+
+
+#footer {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacije2 a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.informacije2 a:hover {
+    color: red;
+}
+
+.informacije2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer1 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.drustvenemreze a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.drustvenemreze a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Proizvodi HTML */
+#p img {
+    width: 630px;
+    height: 400px;
+    padding: 20px;
+
+}
+
+#p h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-decoration: underline;
+    background: rgba(222, 226, 231, 255);
+}
+
+#button-proizvodi {
+    padding: 15px 30px;
+    background: black;
+    color: #fff;
+    border-radius: 80px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all ease .27s;
+    margin: 10px;
+}
+
+#button-proizvodi2 {
+    padding: 15px 30px;
+    background: black;
+    color: #fff;
+    border-radius: 80px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all ease .27s;
+    margin: 10px;
+}
+
+.button-pro {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#page-header {
+    background-image: url("pageheader.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+
+#page-header1 {
+    background-image: url("pageheader1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+.names {
+    display: flex;
+    justify-content: space-around;
+}
+
+.names1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+/* PLAY WITH PADDING AND FIGURE IT OUT WHICH WANT IS THE BEST */
+/* END of Proizvodi - Proizvodi2 */
+
+
+
+
+
+
+/* Kontakt page! */
+#contact-header {
+    background-image: url("contact.avif");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    color: #fff;
+}
+
+#inform {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.infor {
+    display: flex;
+    flex-direction: column;
+}
+
+.infor p {
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.infor a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.infor a:hover {
+    color: red;
+}
+
+/* END */
+
+
+
+
+/* proizvodRoko HTML */
+#proizvodRoko {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodRoko {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+/* proizvodTiffany */
+#proizvodTiffany {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodTiffany {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+/* proizvodComfort */
+#proizvodComfort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodComfort {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+/* proizvodParis */
+#proizvodParis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodParis {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+/* proizvodDana */
+#proizvodDana {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodDana {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+/* proizvodLimaduo */
+#proizvodLimaduo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodLimaduo {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+/* proizvodTommyPraktik */
+#proizvodTommyPraktik {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodTommyPraktik {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.opis i {
+    color: rgba(178, 170, 149, 255);
+}
+
+/* END */
+
+
+
+/* proizvodRokoLux */
+#proizvodTommyPraktik {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodTommyPraktik {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.opis i {
+    color: rgba(178, 170, 149, 255);
+}
+
+/* END */
+
+
+
+
+
+/* proizvodMerkurXL */
+#proizvodMerkurXL {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodMerkurXL {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.opis i {
+    color: rgba(178, 170, 149, 255);
+}
+
+#boja {
+    margin: 10px;
+    font-size: 21px;
+}
+
+/* END */
+
+
+
+
+
+
+
+
+/* proizvodBarcelona */
+#proizvodBarcelona {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodBarcelona {
+    margin-bottom: 100px;
+}
+
+/* END */
+
+
+
+
+
+
+
+
+/* proizvodComfortlux */
+#proizvodComfortLux {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodComfortLux {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+
+
+
+/* proizvodAdria */
+#proizvodAdria {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodAdria {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+
+
+
+
+
+
+/* proizvodKongo */
+#proizvodKongo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 650px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodKongo {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+
+
+
+/* proizvodPraktitkXXR */
+#proizvodPraktitkXXR {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodPraktitkXXR {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+
+/* proizvodTipo */
+#proizvodTipo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodTipo {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+
+
+
+
+/* proizvodGeneva */
+#proizvodGeneva {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodGeneva {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+
+
+/* proizvodHills */
+#proizvodHills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#proizvodHills {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+/* proizvodTrend */
+#proizvodTrend {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodTrend {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+/* proizvodOntario */
+#proizvodOntario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodOntario {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+/* proizvodKosmik */
+#proizvodKosmik {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodKosmik {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+/* proizvodOrion */
+#proizvodOrion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodOrion {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+
+
+/* proizvodOdexaLux */
+#proizvodOdesaLux {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodOdesaLux {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+/* proizvodAndrea */
+#proizvodAndrea {
+    display: flex;
+    justify-content: space-between;
+}
+
+#proizvodA img {
+    width: 620px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodAndrea {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+/* proizvodTommy */
+#proizvodTommy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodTommy {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+/* proizvodGaby */
+#proizvodGaby {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodGaby {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+/* proizvodMadrid */
+#proizvodMadrid {
+    display: flex;
+    justify-content: space-between;
+}
+
+#proizvodM img {
+    width: 620px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodMadrid {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+/* proizvodRokoLux */
+#proizvodRokoLux {
+    display: flex;
+    justify-content: space-between;
+}
+
+#proizvodR img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodRokoLux {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+/* proizvodTimo */
+#proizvodTimo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodTimo {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+
+
+
+/* proizvodOdesa */
+#proizvodOdesa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodOdesa {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+
+/* proizvodPolly */
+#proizvodPolly {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proizvod img {
+    width: 600px;
+    height: 450px;
+}
+
+.opis {
+    margin-right: 100px;
+    width: 1100px;
+}
+
+.opis span {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.opis b {
+    font-size: 20px;
+}
+
+#imetroseda {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#proizvodPolly {
+    margin-bottom: 100px;
+}
+
+.opis a {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+/* END */
+
+
+
+
+/* Default styles (Desktop and Laptop) */
+
+/* Tablet and Mobile styles */
+@media (max-width: 1024px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .navbar li {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    #page-header h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #p .responsive {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .names {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .button-pro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .informacije2,
+    .drustvenemreze {
+        align-items: center;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    #header {
+        padding: 10px;
+    }
+
+    #header img {
+        width: 150px;
+    }
+
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background: rgba(231, 229, 227, 1);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    }
+
+    .navbar ul.show {
+        display: flex;
+    }
+
+    #menu-icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    .navbar li {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #page-header h3 {
+        font-size: 1.5rem;
+    }
+
+    #p .responsive {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .names {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button-pro {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    #footer {
+        padding: 20px 10px;
+    }
+}
+
+
+/* Laptop styles */
+@media (max-width: 1440px) {
+    #header {
+        padding: 10px 20px;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+    }
+
+    .navbar li {
+        padding: 10px;
+    }
+
+    #hero h1,
+    #hero h2 {
+        margin-left: 100px;
+        font-size: 40px;
+    }
+
+    #classic1 {
+        margin-left: 100px;
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+
+    #trosedi img,
+    #garniture img {
+        width: 305px;
+        margin-left: 50px;
+    }
+
+
+
+    #trosedi h3,
+    #garniture h3,
+    #classic {
+        margin-left: 700px;
+    }
+
+    #page-header h3 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #p .responsive {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .names,
+    .names1 {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #footer {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .informacije2,
+    .drustvenemreze {
+        align-items: flex-start;
+    }
+
+
+}
