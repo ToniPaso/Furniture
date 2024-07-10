@@ -1908,133 +1908,7 @@ p {
     margin-left: 100px;
     font-size: 17px;
 }
-
 /* END */
-
-
-
-
-/* Default styles (Desktop and Laptop) */
-
-/* Tablet and Mobile styles */
-@media (max-width: 1024px) {
-    #header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px 20px;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    .navbar li {
-        padding: 10px 0;
-        width: 100%;
-    }
-
-    #page-header h3 {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    #p .responsive {
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
-    }
-
-    .names {
-        flex-direction: column;
-        align-items: flex-start;
-        text-align: center;
-    }
-
-    .button-pro {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .informacije2,
-    .drustvenemreze {
-        align-items: center;
-    }
-}
-
-/* Mobile styles */
-@media (max-width: 600px) {
-    #header {
-        padding: 10px;
-    }
-
-    #header img {
-        width: 150px;
-    }
-
-    .navbar ul {
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        background: rgba(231, 229, 227, 1);
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        padding: 20px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-    }
-
-    .navbar ul.show {
-        display: flex;
-    }
-
-    #menu-icon {
-        display: block;
-        font-size: 30px;
-        cursor: pointer;
-        margin-left: auto;
-    }
-
-    .navbar li {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    #page-header h3 {
-        font-size: 1.5rem;
-    }
-
-    #p .responsive {
-        width: 100%;
-        max-width: 100%;
-        margin: 10px 0;
-    }
-
-    .names {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .button-pro {
-        flex-direction: column;
-        align-items: center;
-        margin: 20px 0;
-    }
-
-    #footer {
-        padding: 20px 10px;
-    }
-}
 
 
 /* Laptop styles */
@@ -2065,13 +1939,14 @@ p {
         font-size: 16px;
     }
 
-    #trosedi img,
-    #garniture img {
-        width: 305px;
+    #trosedi img {
+        width: 400px;
         margin-left: 50px;
     }
 
-
+    #garniture img {
+        width: 350px;
+    }
 
     #trosedi h3,
     #garniture h3,
@@ -2085,10 +1960,13 @@ p {
     }
 
     #p .responsive {
-        width: 100%;
-        max-width: 400px;
-        margin: 0 auto;
+        width: 2px;
+        max-width: 10px;
+        margin: 10px 10px;
+        flex-direction: row;
     }
+
+
 
     .names,
     .names1 {
@@ -2107,6 +1985,8 @@ p {
     .drustvenemreze {
         align-items: flex-start;
     }
-
-
 }
+
+
+
+
